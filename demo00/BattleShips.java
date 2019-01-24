@@ -279,9 +279,6 @@ public class BattleShips {
         bs.buildShip( 9, 6, "V", 1); //96H1
 
         //Dabar naikinsime sukurtus laivus
-
-        //BattleShips bs = new BattleShips(4, 3,3,2,2,2, 2,0);
-
         while (bs.totalLives > 0) {
             Scanner scanner = new Scanner(System.in);
             System.out.println("Įveskite šūvio koordinatę i: ");
