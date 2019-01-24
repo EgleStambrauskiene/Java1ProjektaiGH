@@ -131,7 +131,7 @@ public class BattleShips {
                             case 2:
                                 if (isTaken6 == false) {
                                     isTaken6 = true;
-                                    for (i = startPointJ; i < startPointI + shipSize; i++) {
+                                    for (i = startPointI; i < startPointI + shipSize; i++) {
                                         battleArea[i][startPointJ] = 6;
                                     }
                                 } else if (isTaken6 == true) {
@@ -269,14 +269,14 @@ public class BattleShips {
 
         BattleShips bs = new BattleShips(4,3,3,2,2,2,4,0);
 
-//        bs.buildShip( 0, 1, "H", 2); //01V2 (tai mano sugalvoti duomenys testavimui)
-//        bs.buildShip( 1, 7, "H", 3); //17H3
-        bs.buildShip( 0, 0, "V", 4); //32H4
-//        bs.buildShip( 5, 6, "H", 2); //56H2
-//        bs.buildShip( 6, 4, "H", 3); //64V3
-//        bs.buildShip( 8, 1, "H", 2); //81H2
-//        bs.buildShip( 8, 8, "H", 1); //88H1
-//        bs.buildShip( 9, 6, "H", 1); //96H1
+        bs.buildShip( 0, 1, "V", 2); //01V2 (tai mano sugalvoti duomenys testavimui)
+        bs.buildShip( 1, 7, "H", 3); //17H3
+        bs.buildShip( 3, 2, "H", 4); //32H4
+        bs.buildShip( 5, 6, "H", 2); //56H2
+        bs.buildShip( 6, 4, "V", 3); //64V3
+        bs.buildShip( 8, 1, "H", 2); //81H2
+        bs.buildShip( 8, 8, "V", 1); //88H1
+        bs.buildShip( 9, 6, "V", 1); //96H1
 
         //Dabar naikinsime sukurtus laivus
 
