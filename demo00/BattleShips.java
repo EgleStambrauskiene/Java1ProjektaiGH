@@ -267,7 +267,7 @@ public class BattleShips {
         System.out.println(" ARBA PERŽENGIA MŪŠIO LAUKO RIBAS, ARBA PATENKA Į KITO LAIVO APSAUGINĘ ZONĄ.");
         System.out.println("RAPORTAI SPAUSDINAMI PO ŠIA ANTRAŠTE.");
 
-        BattleShips bs = new BattleShips(4,3,3,2,2,2,4,0);
+        BattleShips bs = new BattleShips(4,3,3,2,2,2,18,0);
 
         bs.buildShip( 0, 1, "V", 2); //01V2 (tai mano sugalvoti duomenys testavimui)
         bs.buildShip( 1, 7, "H", 3); //17H3
